@@ -1,0 +1,34 @@
+title: Manan's Blog
+name: "Manan Jadhav"
+
+author:
+  name: Manan Jadhav
+  avatar: "https://avatars.githubusercontent.com/u/2637884?v=4"
+  bio: >-
+    JavaScript Developer<br>
+    Flight Sim Enthusiast <br>
+    Generalist
+  location: "Kitchener, Ontario, Canada"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jadhavmanan/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/manan-jadhav"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
+plugins:
+  - jekyll-feed
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      show_date: true
+      read_time: true
