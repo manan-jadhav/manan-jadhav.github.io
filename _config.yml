@@ -5,7 +5,7 @@ author:
   name: Manan Jadhav
   avatar: "https://avatars.githubusercontent.com/u/2637884?v=4"
   bio: >-
-    JavaScript Developer<br>
+    JavaScript Developer @ [CodeGem](https://codegem.app)<br>
     Flight Sim Enthusiast <br>
     Generalist
   location: "Kitchener, Ontario, Canada"
@@ -19,7 +19,7 @@ author:
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: sunrise
 plugins:
   - jekyll-feed
 
