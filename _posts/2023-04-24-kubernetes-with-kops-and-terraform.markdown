@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Kubernetes with kOps and Terraform"
-date:   2023-04-23 20:00:00 -0400
+date:   2023-04-24 20:00:00 -0400
 ---
 
 Recently, we migrated our infrastructure from AWS ECS (Elastic Container Service) to our own Kubernetes cluster. Why we made that change is a post of its own, but a quick TL;DR would be:
