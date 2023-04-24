@@ -1,10 +1,13 @@
 ---
 layout: single
 title:  "Kubernetes with kOps and Terraform"
-date:   2023-04-24 20:00:00 -0400
+date:   2023-04-23 20:00:00 -0400
+categories: Kubernetes DevOps
+tags: DevOps K8s Kubernetes Terraform AWS ECS Automation
+excerpt: Learn how to use kOps with Terraform and automate your Kubernetes cluster provisioning.
 ---
 
-Recently, we migrated our infrastructure from AWS ECS (Elastic Container Service) to our own Kubernetes cluster. Why we made that change is a post of its own, but a quick TL;DR would be:
+Recently, at CodeGem we migrated our infrastructure from AWS ECS (Elastic Container Service) to our own Kubernetes cluster. Why we made that change is a post of its own, but a quick TL;DR would be:
 
 - We needed scheduling capabilites - like K8s CronJobs - but ECS did not natively provide without adding dependency on another AWS Service.
 - There wasn't a clear path about how to run DB migration scripts before each deploy
