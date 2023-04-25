@@ -16,7 +16,7 @@ Recently, at CodeGem we migrated our infrastructure from AWS ECS (Elastic Contai
 
 _(A few of these might be on me as I'm not an ECS power user :P)_ 
 
-<div class="align-center" style="width: 300px">
+<div class="align-center" style="width: 400px">
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/jnhXd7KT8UTk5WIgiV" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/minions-minions-2-rise-of-gru-jnhXd7KT8UTk5WIgiV">via GIPHY</a></p>
 </div>
 
@@ -78,13 +78,13 @@ Terraform also provides many additional utilities and scripting abilities which 
 
 What's great though, is that kOps allows __exporting__ a Terraform config instead of creating / managing cloud resources itself, and this my fellow technologist, is the gold mine!
 
-<div class="align-center" style="width: 300px">
+<div class="align-center" style="width: 400px">
 <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/pPzjpxJXa0pna" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/pPzjpxJXa0pna">via GIPHY</a></p>
 </div>
 
 ## kOps X Terraform
 
-![Kowalski, Analysis!](https://i.kym-cdn.com/entries/icons/original/000/037/334/Kowalski.jpg)
+![Kowalski, Analysis!](https://i.kym-cdn.com/entries/icons/original/000/037/334/Kowalski.jpg){: .align-center}
 
 To use Terraform for managing your cloud resources, add the `--out` and `--target` options to your `kops update cluster` command:
 
@@ -160,6 +160,6 @@ And then in your `helmfile.yaml`, you can do:
 values:
     - terraform: {{ "{{ " }} readFile "./terraform.json" }}
 ```
-<div class="align-center" style="width: 300px">
+<div class="align-center" style="width: 400px">
 <div style="width:100%;height:0;padding-bottom:125%;position:relative;"><iframe src="https://giphy.com/embed/l2Sq5GffrCyUMEXjW" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/arg-l2Sq5GffrCyUMEXjW">via GIPHY</a></p>
 </div>
